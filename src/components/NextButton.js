@@ -1,4 +1,4 @@
-function NextQuestion({ dispatch, answer, numQuestions, index }) {
+function NextButton({ dispatch, answer, numQuestions, index }) {
   if (answer === null) return null;
 
   if (index < numQuestions - 1)
@@ -22,4 +22,4 @@ function NextQuestion({ dispatch, answer, numQuestions, index }) {
     );
 }
 
-export default NextQuestion;
+export default NextButton;
